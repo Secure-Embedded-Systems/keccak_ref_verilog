@@ -18,6 +18,13 @@ cd sim_verilator
 make
 ```
 
+3. To open the VCD into gtkwave, first cleanup the colons from variable names
+
+```
+cd sim_verilator/low_area
+. gtkfriendly.sh
+```
+
 Copyright (c) 2025 Patrick Schaumont  
 Licensed under the Apache License, Version 2.0, see LICENSE for details.
 
