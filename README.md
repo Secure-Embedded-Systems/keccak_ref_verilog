@@ -1,4 +1,4 @@
-This is a translation of the keccak reference implementation by keccak.team into Verilog using ghdl and yosys. The original VDHL reference implementations are available at the keccak standard website: https://keccak.team/files/KeccakVHDL-3.1.zip
+This is a translation of the keccak reference implementation by keccak.team (Guido Bertoni, Joan Daemen, Seth Hoffert, Michaël Peeters, Gilles Van Assche and Ronny Van Keer) into Verilog using GHDL and yosys. The original VDHL reference implementations are available at the keccak standard website: https://keccak.team/files/KeccakVHDL-3.1.zip
 
 To set up GHDL and yosys, I recommend the docker image developed by JKU: https://github.com/iic-jku/IIC-OSIC-TOOLS
 
