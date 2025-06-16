@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copyright (c) 2025 Patrick Schaumont
+# Licensed under the Apache License, Version 2.0, see LICENSE for details.
+
 echo "Substituting variables names of keccak.vcd into gtkwave-friendly versions in output.vcd"
 awk '{if ($1=="$var") {print $5}}' keccak.vcd >tmp_vars
 sort tmp_vars | uniq >tmp_vars2
