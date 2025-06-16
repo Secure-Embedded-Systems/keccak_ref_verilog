@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Patrick Schaumont
+// Licensed under the Apache License, Version 2.0, see LICENSE for details.
+
 module system_mem (
 		   input wire	     clk,
 		   input wire	     rst_n,
