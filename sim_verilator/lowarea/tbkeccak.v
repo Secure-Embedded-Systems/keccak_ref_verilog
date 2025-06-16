@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Patrick Schaumont
+// Licensed under the Apache License, Version 2.0, see LICENSE for details.
+
 module tbkeccak;
    reg clk;
    reg rst_n;
